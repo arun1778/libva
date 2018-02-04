@@ -90,7 +90,7 @@ LOCAL_C_INCLUDES += \
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := libva-android
 
-LOCAL_SHARED_LIBRARIES := libva libdrm
+LOCAL_SHARED_LIBRARIES := libva libdrm libnativewindow
 
 include $(BUILD_SHARED_LIBRARY)
 
